@@ -22,7 +22,7 @@ export const signup = (email, password, role, name) => {
     email,
     role,
     name,
-    avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200',
+    avatar: '',
     skills: [],
     ...(role === 'finder' ? { company: '' } : { resume: '' })
   };
